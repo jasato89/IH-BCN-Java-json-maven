@@ -1,0 +1,5 @@
+{"id":"IN-0001","total":0.0,"isPaid":false,"invoiceItems":[{"name":"Cerveza","price":3.0},{"name":"Pizza","price":3.5},{"name":"Pizza","price":3.5}]},
+{"id":"IN-0002","total":0.0,"isPaid":false,"invoiceItems":[{"name":"Cerveza","price":3.0},{"name":"Pizza","price":3.5},{"name":"Pizza","price":3.5}]},
+{"id":"IN-0007","total":0.0,"isPaid":false,"invoiceItems":[{"name":"Cerveza","price":3.0},{"name":"Pizza","price":3.5},{"name":"Pizza","price":3.5}]},
+{"id":"IN-0005","total":0.0,"isPaid":false,"invoiceItems":[{"name":"Cerveza","price":3.0},{"name":"Pizza","price":3.5},{"name":"Pizza","price":3.5}]},
+{"id":"IN-0004","total":0.0,"isPaid":false,"invoiceItems":[{"name":"Cerveza","price":3.0},{"name":"Pizza","price":3.5},{"name":"Pizza","price":3.5}]}

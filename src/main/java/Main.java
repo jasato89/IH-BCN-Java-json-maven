@@ -1,7 +1,4 @@
-import classes.Apartment;
-import classes.House;
-import classes.Invoice;
-import classes.InvoiceItem;
+import classes.*;
 import com.google.gson.Gson;
 
 import java.io.FileWriter;
@@ -11,6 +8,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+
+        /*
 
         House house = new House(12, "C/Almogavers 23", "Jaume Sánchez", new BigDecimal("10000000"));
         Apartment apartment = new Apartment(13, "C/Murillo 1234", "Claudia", new BigDecimal("243000"), 3, true);
@@ -42,11 +41,18 @@ public class Main {
         FileWriter fileWriter = new FileWriter("invoices.json", true);
         fileWriter.write(invoiceJson);
         fileWriter.close();
-        
+
         Invoice invoice1 = gson.fromJson(invoiceJson, Invoice.class);
-        
-        
-        
+         */
+
+        Person jaume = new Person("Jaume", "Sánchez", 450);
+
+        System.out.println(jaume.showInfo());
+
+
+
+
+
 
 
 

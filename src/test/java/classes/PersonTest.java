@@ -1,12 +1,29 @@
 package classes;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PersonTest {
 
-    Person person  = new Person("Jaume", "Sánchez", 33);
+
+    Person person;
+
+    @BeforeEach
+            public void init() {
+        person  = new Person("Jaume", "Sánchez", 33);
+
+    }
+
+    @AfterEach
+    public void tearDown() {
+        person = null;
+    }
+
+
+
 
     @Test
     public void showInfo_deletesCorrectlySpaces() {

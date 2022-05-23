@@ -21,14 +21,11 @@ public class PersonTest {
     public void tearDown() {
         person = null;
     }
-
-
-
-
+    
     @Test
     public void showInfo_deletesCorrectlySpaces() {
 
-        person.setName("Jaume     ");
+        person.setName("Jaume   ");
         assertEquals("Jaume Sánchez is 33 old", person.showInfo() );
 
     }

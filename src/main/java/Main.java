@@ -51,6 +51,10 @@ public class Main {
 
 
 
+        System.out.println(MathLibrary.add(5, 7));
+
+
+
 
 
 
